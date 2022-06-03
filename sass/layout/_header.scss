@@ -1,0 +1,92 @@
+/* Header */
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-utils {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 71px;
+  animation-duration: 1.5s;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-address {
+  margin-right: 40px;
+}
+
+.navigation-list-link,
+.header-tel-link,
+.modal-btn,
+.contact-form-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  transition: color 250ms linear;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-tel-link:hover,
+.header-tel-link:focus {
+  color: $accent-color;
+}
+
+.navigation-list-link {
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+
+.header-tel-link {
+  text-transform: uppercase;
+}
+
+.modal-btn,
+.contact-form-btn {
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  background-color: transparent;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  cursor: pointer;
+  color: $modal-btn-dark-theme-color;
+  transition: background-color 250ms linear, color 250ms linear;
+}
+
+.modal-btn:hover,
+.modal-btn:focus,
+.contact-form-btn:hover,
+.contact-form-btn:focus {
+  background-color: $accent-color;
+  color: #ffffff;
+}

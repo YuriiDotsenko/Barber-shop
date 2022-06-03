@@ -1,0 +1,114 @@
+/* Hero Section */
+
+.hero {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(25, 28, 38, 0.2),
+      rgba(25, 28, 38, 0.2)
+    ),
+    url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 1125px auto;
+  animation-duration: 1s;
+}
+
+.hero .container {
+  display: flex;
+}
+
+.hero-slider {
+  flex-grow: 1;
+  padding-left: 100px;
+  padding-top: 272px;
+  padding-bottom: 206px;
+}
+
+.social-list-wrapper {
+  position: relative;
+  width: 100px;
+}
+
+.hero .social-links {
+  position: absolute;
+  left: 27px;
+  bottom: 40px;
+  transform: rotate(-90deg);
+  transform-origin: left;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background: #303030;
+}
+
+.social-links-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.social-links-item-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36px;
+  letter-spacing: 0.2em;
+  color: $text-light-theme-color;
+  transition: color 250ms linear;
+}
+
+.social-links-item-link:hover,
+.social-links-item-link:focus {
+  color: $accent-color;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $text-dark-theme-color;
+  margin-bottom: 20px;
+}
+
+.subtitle::before {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 20px;
+  background: rgba(157, 164, 189, 0.6);
+}
+
+.subtitle-light-theme::before {
+  background-color: #303030;
+}
+
+.hero-title {
+  font-family: $secondary-font;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+  color: $title-dark-theme-color;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: $text-dark-theme-color;
+}
