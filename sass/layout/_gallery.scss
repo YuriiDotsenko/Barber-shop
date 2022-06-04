@@ -2,13 +2,10 @@
 
 .gallery .subtitle {
   margin-bottom: 44px;
+  color: $title-light-theme-color;
 }
 
 .gallery-list {
   display: flex;
   justify-content: space-between;
-}
-
-.gallery .subtitle {
-  color: $title-light-theme-color;
 }

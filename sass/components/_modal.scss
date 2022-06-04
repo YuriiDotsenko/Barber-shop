@@ -141,12 +141,12 @@
   cursor: pointer;
   color: $modal-btn-light-theme-color;
   transition: background-color 250ms linear, color 250ms linear;
-}
 
-.modal-form-btn:hover,
-.modal-form-btn:focus {
-  background-color: $accent-color;
-  color: #ffffff;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: #ffffff;
+  }
 }
 
 .is-hidden {
@@ -166,10 +166,10 @@
   border: 1px solid #000;
   cursor: pointer;
   transition: color 250ms linear;
-}
 
-.modal-close-btn:hover {
-  color: $accent-color;
+  &:hover {
+    color: $accent-color;
+  }
 }
 
 .modal-close-btn-svg {

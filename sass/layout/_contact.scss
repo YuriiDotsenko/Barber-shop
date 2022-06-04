@@ -7,19 +7,19 @@
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-}
 
-.contact .address {
-  display: flex;
-  align-items: center;
+  .address {
+    display: flex;
+    align-items: center;
+  }
+
+  .subtitle {
+    color: $title-dark-theme-color;
+  }
 }
 
 .contact {
   background-image: url("../images/bg1.png");
-}
-
-.contact .subtitle {
-  color: $title-dark-theme-color;
 }
 
 .contact-title {

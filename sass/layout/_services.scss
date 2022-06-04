@@ -64,10 +64,10 @@
   justify-content: space-between;
   position: relative;
   align-items: baseline;
-}
 
-.services-list-item:not(:last-child) {
-  margin-bottom: 20px;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
 
 .services-modal-btn {

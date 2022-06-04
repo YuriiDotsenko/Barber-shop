@@ -3,10 +3,11 @@
 .footer {
   padding-top: 56px;
   padding-bottom: 56px;
-}
-.footer .container {
-  display: flex;
-  justify-content: space-between;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .copyright {

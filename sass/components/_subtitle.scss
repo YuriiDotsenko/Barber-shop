@@ -1,0 +1,20 @@
+.subtitle {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $text-dark-theme-color;
+  margin-bottom: 20px;
+
+  &::before {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 1px;
+    margin-right: 20px;
+    background: rgba(157, 164, 189, 0.6);
+  }
+}

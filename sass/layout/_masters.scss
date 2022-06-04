@@ -55,11 +55,11 @@
   border-radius: 50%;
   background-color: #ffffff;
   transition: background-color 250ms linear;
-}
 
-.social-list-item-link:hover,
-.social-list-item-link:focus {
-  background-color: #000;
+  &:hover,
+  &:focus {
+    background-color: #000;
+  }
 }
 
 .social-list-item-link-svg {
